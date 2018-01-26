@@ -1,6 +1,9 @@
-# A semiprime is a product of two prime
+# Context: A semiprime is a product of two prime
 # numbers, not necessarily distinct.
 # Squares of prime numbers are also semiprimes.
+
+# Problem: Find the numbers which are semiprimes,
+# within a given range. For e.g. 1 to 100.
 
 def isSemiprime(num):
   # start with the smallest prime
