@@ -1,3 +1,11 @@
+# Context : The span Si of the stock’s price on a given day i 
+# is defined as the maximum number of consecutive days just before
+# the given day, for which the price of the stock on the current 
+# day is less than or equal to its price on the given day.
+
+# Problem: We have a series of n daily price quotes for a stock 
+# and we need to calculate span of stock’s price for all n days
+
 def calculate_span(stock_quotes, span):
   # span for the first quote will always be 1
   span[0] = 1
@@ -14,7 +22,7 @@ def calculate_span(stock_quotes, span):
   return span  
   
 quotes = [10, 4, 5, 90, 120, 80]
-# initialize span as an empty with same length as quotes
+# initialize span as an empty list with same length as quotes
 span_list = [None]*len(quotes)
 print(calculate_span(quotes, span_list))
 # Result : [1, 1, 2, 4, 5, 1]
