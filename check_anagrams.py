@@ -20,7 +20,7 @@ def computeCommonLetters(text_b):
   return common_letters
 
 def computeUncommonLetters(text_a, text_b, common_letters):
-  return len(text_a)+len(text_b)-(2*common_letters)
+  return abs(len(text_a)+len(text_b)-(2*common_letters))
 
 text_1 = "hello"
 text_2 = "billion"
