@@ -14,6 +14,29 @@ def first_non_repeating(input_string):
       break
 
   return flag
+
+# lesser time complexity
+# more space complexity
+# obvious space-time trade-off
+def first_non_repeating_v2(input_string):
+  
+  flag = None
+  repeating = []
+  non_repeating = []
+
+  for char in input_string:
+    if char in non_repeating:
+      non_repeating.remove(char)
+      repeating.append(char)
+    else:
+      non_repeating.append(char)
+  
+  if len(non_repeating) == 0:
+    pass
+  else:
+    flag = non_repeating[0]
+  
+  return flag
       
 
 result = first_non_repeating("djebdedbekfrnkfnduwbdwkd")
