@@ -3,18 +3,6 @@ class Node:
     self.data = data
     self.next_node = None
     
-  def getData(self):
-    return self.data
-    
-  def setData(self, data):
-    self.data = data
-    
-  def getNextNode(self):
-    return self.next_node
-    
-  def setNextNode(self, new_next):
-    self.next_node = new_next
-    
 class LinkedList:
   def __init__(self, head=None):
     self.head = head
@@ -23,44 +11,74 @@ class LinkedList:
     return self.head == None
     
   def insert(self, data):
-    temp = Node(data)
-    temp.setNextNode(self.head)
+    # create a temp node
+    temp = Node(data=data)
+    # point new node to head
+    temp.next_node = self.head
+    # set the head as new node
     self.head = temp
     
+  def insert_after(self, prev, data):
+    if prev is None:
+      raise ValueError("Given node is not found...")
+      return prev
+    
+    # create a temp node
+    temp = Node(data=data)
+    # set next node of temp to the next node of previous
+    temp.next_node = prev.next_node
+    # set next node of previous to point temp
+    prev.next_node = temp
+    
   def size(self):
+    # start with the head
     current = self.head
     count = 0
+    
+    # loop unless current is not None
     while current:
       count+=1
-      current.getNextNode()
+      current = current.next_node
     return count
     
   def search(self, data):
+    # start with the head
     current = self.head
     found = False
+    
+    # loop unless current is not None
     while current and not found:
-      if current.getData() == data:
+      # if found, change flag and return data
+      if current.data == data:
         found = True
       else:
-        current = current.getNextNode()
+        # change current to next node
+        current = current.next_node
     if current is None:
+      # raise Exception if not found
       raise ValueError("Data is not in the list")
     return current
     
     def delete(self, data):
+      # start with the head
       current = self.head
       previous = None
       found = False
+      
+      # loop unless current is not None
       while current and not found:
+        # if found, change flag 
         if current.getData() == data:
           found = True
         else:
           previous = current
-          current = current.getNextNode()
+          current = current.next_node
+         
       if current is None:
+        # raise Exception if not found
         raise ValueError("Data is not in the list")
       if previous is None:
-        self.head = current.getNextNode()
+        self.head = current.next_node
       else:
-        previous.setNextNode(current.getNextNode())
+        previous.next_node = current.next_node
           
