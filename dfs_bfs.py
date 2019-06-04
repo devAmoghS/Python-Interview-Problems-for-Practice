@@ -1,3 +1,8 @@
+# Given a graph, there are two methods to 
+# perform traversal on it.
+# 1. Depth First Search (DFS)
+# 2. Breadth First Search (BFS)
+
 def dfs_1(graph, start):
     visited, stack = set(), [start]
     while stack:
