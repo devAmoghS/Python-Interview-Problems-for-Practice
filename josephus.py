@@ -1,4 +1,4 @@
- # Problem: A 100 soldiers standing in a circle and 
+ # Problem: N soldiers are standing in a circle and 
  # first person has sword and he kills the 2nd person 
  # and gives the sword to the third person and so on 
  # till 99th person kills the 100th person gives the 
