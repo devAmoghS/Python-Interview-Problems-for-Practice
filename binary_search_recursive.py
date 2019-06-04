@@ -1,3 +1,8 @@
+# Given an array , find if the number exists
+# This is a `recursive` implementation of the
+# binary search. If the element is not found
+# it returns -1
+
 def binarySearch(lst, key, l, r):
   if r>=l:
     mid = l + (r-l) // 2
