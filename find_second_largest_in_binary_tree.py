@@ -1,3 +1,5 @@
+# Given a binary tree, find the second largest
+# node in it
 
 class Node:
   def __init__(self, data):
@@ -35,4 +37,4 @@ node.right.left = Node(45)
 node.right.right = Node(100)
 
 result = find_second_largest(node)
-print(result)
+print(result) # prints 50
