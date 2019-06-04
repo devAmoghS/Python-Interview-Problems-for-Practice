@@ -1,3 +1,8 @@
+# Given a linked list, this method
+# will return m'th element to the last
+# 2->3->4->8->5; m=2 will return 8
+# since 8 is second to last
+
 def findMToLast(l_list, m):
   current = l_list.head
   count = 0
