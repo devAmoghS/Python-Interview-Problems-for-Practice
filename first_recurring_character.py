@@ -1,3 +1,6 @@
+# Given an input string, find the first
+# recurring character in it.
+
 def first_recurring_character(input):
     flag = None
     d = dict()
