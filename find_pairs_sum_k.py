@@ -1,3 +1,6 @@
+# Given an array of numbers, find all the
+# pairs of numbers which sum upto `k`
+
 def find_pairs(num_array, k):
   pairs_array = []
   for num in num_array:
