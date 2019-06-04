@@ -1,3 +1,9 @@
+# Given an input string, it gives the 
+# first non repeating character in it
+# There are two implementations below
+# 1. has less space complexity
+# 2. has less time complexity
+
 def first_non_repeating(input_string):
   frequency = dict()
   flag = None
