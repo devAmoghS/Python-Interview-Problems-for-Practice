@@ -1,3 +1,7 @@
+# This is a level order traversal of a 
+# a binary tree. It is also known as breadth
+# first traversal.
+
 class Node:
   
   def __init__(self, data):
