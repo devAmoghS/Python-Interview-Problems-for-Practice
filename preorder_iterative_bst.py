@@ -7,8 +7,8 @@ def preOrderTraversal(root):
 
     right = current.right
     if right is not None:
-        stack.insert(0, right)
+      stack.insert(0, right)
 
     left = current.left
     if left is not None:
-        stack.insert(0, left)
+      stack.insert(0, left)
