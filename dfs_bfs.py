@@ -1,4 +1,4 @@
-# Given a graph, there are two methods to 
+# Given a graph, there are two methods to
 # perform traversal on it.
 # 1. Depth First Search (DFS)
 # 2. Breadth First Search (BFS)
@@ -17,9 +17,9 @@ def dfs_2(graph, start, visited=None):
         visited = set()
     visited.add(start)
     for next in graph[start] - visited:
-        dfs(graph, next, visited)
+        dfs_2(graph, next, visited)
     return visited
-    
+
 def bfs(graph, start):
     visited, queue = set(), [start]
     while queue:
@@ -30,7 +30,7 @@ def bfs(graph, start):
     return visited
 
 # bfs(graph, 'A') # {'B', 'C', 'A', 'F', 'D', 'E'}
-    
+
 def dfs_paths(graph, start, goal):
     stack = [(start, [start])]
     while stack:
@@ -47,6 +47,6 @@ graph = {'A': set(['B', 'C']),
          'D': set(['B']),
          'E': set(['B', 'F']),
          'F': set(['C', 'E'])}
-         
+
 result = list(dfs_paths(graph, 'A', 'F')) # [['A', 'C', 'F'], ['A', 'B', 'E', 'F']]
 print(result)

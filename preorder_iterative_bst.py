@@ -4,9 +4,11 @@ def preOrderTraversal(root):
   while len(stack) > 0:
     current = stack.pop()
     print(current.value)
-    
+
     right = current.right
-    stack.insert(0, right) if right is not None
-    
+    if right is not None:
+      stack.insert(0, right)
+
     left = current.left
-    stack.insert(0, left) if left is not None
+    if left is not None:
+      stack.insert(0, left)
