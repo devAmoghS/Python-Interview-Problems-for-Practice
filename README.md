@@ -1,6 +1,6 @@
 # Python-Interview-Problems-for-Practice (now supported with *Code Style*)
 
-[![star this repo](http://githubbadges.com/star.svg?user=devAmoghS&repo=Python-Interview-Problems-for-Practice)](http://github.com/ddavison/github-badges) [![fork this repo](http://githubbadges.com/fork.svg?user=devAmoghS&repo=Python-Interview-Problems-for-Practice)](http://github.com/ddavison/github-badges/fork) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+[![star this repo](http://githubbadges.com/star.svg?user=devAmoghS&repo=Python-Interview-Problems-for-Practice)](http://github.com/ddavison/github-badges/star) [![fork this repo](http://githubbadges.com/fork.svg?user=devAmoghS&repo=Python-Interview-Problems-for-Practice)](http://github.com/ddavison/github-badges/fork) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
 ![alt text](https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixlib=rb-1.2.1&auto=format&fit=crop&w=972&q=80)
 40+ Common code and interview problems solved in Python (it's growing...)
