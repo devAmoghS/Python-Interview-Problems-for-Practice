@@ -42,14 +42,14 @@ def karatsuba(x, y):
 
 def test():
     for i in range(1000):
-        x = random.randint(1, 10**5)
-        y = random.randint(1, 10**5)
-        expected = x*y
+        x = random.randint(1, 10 ** 5)
+        y = random.randint(1, 10 ** 5)
+        expected = x * y
         result = karatsuba(x, y)
         if result != expected:
             return print("failed")
     return print("ok")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     test()
