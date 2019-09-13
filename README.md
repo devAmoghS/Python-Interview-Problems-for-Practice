@@ -1,4 +1,4 @@
-# Python-Interview-Problems-for-Practice
+# Python-Interview-Problems-for-Practice (now supported with *Code Style*)
 
 [![star this repo](http://githubbadges.com/star.svg?user=devAmoghS&repo=Python-Interview-Problems-for-Practice)](http://github.com/ddavison/github-badges) [![fork this repo](http://githubbadges.com/fork.svg?user=devAmoghS&repo=Python-Interview-Problems-for-Practice)](http://github.com/ddavison/github-badges/fork) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
