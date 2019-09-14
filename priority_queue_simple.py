@@ -1,6 +1,7 @@
 # Priority Queue is an extension of the queue with following properties.
 # 1) An element with high priority is dequeued before an element with low priority.
 # 2) If two elements have the same priority, they are served according to their order in the queue
+# The delete operation has time complexity of O(n)
 
 class PriorityQueue(object):
   def __init__(self):
