@@ -31,3 +31,7 @@ Solution: Merge sort, is a  divide-and-conquer approach for sorting the data. In
 ## 8. What are the minimum number of queues to implement a prioriy queue ?
 
 Solution: The minimum number of queues needed in this case is two. One queue is intended for sorting priorities while the other queue is used for actual storage of data.
+
+## 9. Which sorting algorithm is the fastest
+
+Solution: There are many types of sorting algorithms: quick sort, bubble sort, balloon sort, radix sort, merge sort, etc. Not one can be considered the fastest because each algorithm is designed for a particular data structure and data set. It would depend on the data set that you would want to sort.
