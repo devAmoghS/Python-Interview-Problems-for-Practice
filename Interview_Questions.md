@@ -174,7 +174,7 @@ Output : 5`
 #### 62. Given two strings in lowercase, the task is to make them anagram. The only allowed operation is to remove a character from any string. Find minimum number of characters to be deleted to make both the strings anagram?
 If two strings contains same data set in any order then strings are called Anagrams.
 
-`Examples:
+``Examples:
  
 Input : str1 = "bcadeh" str2 = "hea"
 Output: 3
@@ -184,12 +184,12 @@ Input : str1 = "cddgk" str2 = "gcd"
 Output: 2
  
 Input : str1 = "bca" str2 = "acb"
-Output: 0`
+Output: 0``
 
 #### 63. Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
 Examples:
  
-`Input: arr[]   = {2, 0, 2}
+``Input: arr[]   = {2, 0, 2}
 Output: 2
 Structure is like below
 | |
@@ -213,7 +213,7 @@ Output: 6
    |   || |
 _|_||_||||||
 Trap "1 unit" between first 1 and 2, "4 units" between
-first 2 and 3 and "1 unit" between second last 1 and last 2`
+first 2 and 3 and "1 unit" between second last 1 and last 2``
 
 #### 64. Given two strings str1 and str2 and below operations that can performed on str1. Find minimum number of edits (operations) required to convert ‘str1’ into ‘str2’.
 Insert
@@ -224,7 +224,7 @@ Replace
 
 All of the above operations are of equal cost.
 
-`Examples:
+``Examples:
  
 Input:   str1 = "geek", str2 = "gesek"
 Output:  1
@@ -239,12 +239,12 @@ Output:  3
 Last three and first characters are same.  We basically
 need to convert "un" to "atur".  This can be done using
 below three operations. 
-Replace 'n' with 'r', insert t, insert a`
+Replace 'n' with 'r', insert t, insert a``
 
 #### 65. Given a string with repeated characters, task is rearrange characters in a string so that no two adjacent characters are same.
 Note : It may be assumed that the string has only lowercase English alphabets.
 
-`Examples:
+``Examples:
  
 Input: aaabc 
 Output: abaca 
@@ -256,7 +256,7 @@ Input: aa
 Output: Not Possible
  
 Input: aaaabc 
-Output: Not Possible`
+Output: Not Possible``
 
 #### 66. This problem is know as Clock angle problem where we need to find angle between hands of an analog clock at a given time.
 `Examples:Input:  h = 12:00, m = 30.00
