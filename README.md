@@ -6,7 +6,7 @@
 
 ## Updates
 
-#### Problems available: Solved -- 55 ; Newly Added -- 57
+#### Problems available: Solved -- 63 ; Newly Added -- 57
 
 #### 1. Code Style is added 
 #### 2. 57 new problems are added in `Interview_Questions.md`. Solutions to be uploaded soon.
