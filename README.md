@@ -4,6 +4,13 @@
 [![fork this repo](http://githubbadges.com/fork.svg?user=devAmoghS&repo=Python-Interview-Problems-for-Practice&style=flat&color=fff&background=007ec6)](https://github.com/ddavison/github-badges/fork)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
+## Updates
+
+#### Problems available: Solved -- 55 ; Newly Added -- 57
+
+#### 1. Code Style is added 
+#### 2. 57 new problems are added in `Interview_Questions.md`. Solutions to be uploaded soon.
+
 ![alt text](https://images.unsplash.com/photo-1494178270175-e96de2971df9?ixlib=rb-1.2.1&auto=format&fit=crop&w=972&q=80)
 40+ Common code and interview problems solved in Python (it's growing...)
 
