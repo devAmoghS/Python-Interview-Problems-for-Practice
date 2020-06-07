@@ -12,6 +12,7 @@
 # 3. The equation of the straight line is y = m*x+c. So the next thing we need to find is the intercept c
 # 4. Intercept can be derived using the formula c = y1 - m*x1
 # 5. To get the next point, we add dx to the x-cordinate and dy to the y cordinate
+# 6. We continue this cycle until we reach (x2, y2)
 
 def lineGenerator(x1, y1, x2, y2):
 	dx = x2 - x1
