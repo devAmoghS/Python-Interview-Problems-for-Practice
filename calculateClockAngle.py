@@ -12,9 +12,17 @@ def calculateAngle(hour, minute):
     if minute == 60:
       minute = 0
 
+    # hour hand moves 360° in 12 hours i.e. 
+    # 360/12*60 ==> 0.5° every minute
+    
+    # similarly minute hand moves 360° in 1 hour i.e.
+    # 360/60 ==> 6° every minute
+    
     hour_angle = (hour * 60 + minute) * 0.5
     minute_angle = minute * 6
 
+    # We take the absolute difference 
+    # and then return the acute angle between the two
     difference = abs(hour_angle - minute_angle)
 
     return min(difference, 360 - difference)
