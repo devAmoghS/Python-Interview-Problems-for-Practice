@@ -3,6 +3,20 @@
 # 1. Depth First Search (DFS)
 # 2. Breadth First Search (BFS)
 
+# Breadth First Search: 
+# We check the adjacent nodes first and then mark them visited to explore their adjacent nodes.
+# This uses a queue to keep track of the visited nodes in FIFO style
+# In BFS, one vertex is selected at a time when it is visited and marked then its adjacent are visited and stored in the queue
+# The goal is to get the shortest path by traversing the minimum no. of edges in the graph.
+# BFS tries all the possible path at the same time and then use a tie breaking strategy to decide the best path
+# It is used to search the solution in the nearest nodes
+# Hence it is useful for social networks where in-depth exploration is not requirewd
+
+# Depth First Search: 
+# We check for exploration on the first single path we discovered and go deep until we encounter a dead end
+# This uses a stack to keep track of the visited node and perform `backtracking` in case a dead end is met
+# DFS is faster than BFS when exploration is the priority
+# DFS will always find a path but that may not be the shortest path, unlike BFS
 
 def dfs_1(graph, start):
     visited, stack = set(), [start]
