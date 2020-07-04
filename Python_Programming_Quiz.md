@@ -65,8 +65,7 @@ Methods | Description |
 `swapcase()` | Swaps cases, lower case becomes upper case and vice versa |
 `islower()` | Returns True if all characters in the string are lower case | 
 `isupper()` | Returns True if all characters in the string are upper case | 
-`isalnum()` | Returns True if all characters in the string are alphanumeric
- |
+`isalnum()` | Returns True if all characters in the string are alphanumeric |
 `isalpha()` | Returns True if all characters in the string are in the alphabet | 
 `isnumeric()` | Returns True if all characters in the string are numeric | 
 `capitalize()` | Converts the first character to upper case | 
