@@ -46,3 +46,15 @@ Both the data structures support the following functions: <br>
 Common methods in list and tuple: `index(), count()` <br>
 Methods in list: `append(), insert(), remove(), pop(), clear(), sort(), and reverse()`
 
+#### 2. What is a ternary operator in Python ? <br>
+#### 3. What are negative indices in Python ? <br>
+#### 4. List some of the keywords in Python ? <br>
+```
+      and	      def	    False	    import    not	    True
+      as	      del	    finally	  in	      or	    try
+      assert	  elif	  for	      is	      pass	  while
+      break	    else	  from	    lambda	  print	  with
+      class	    except	global	  None	    raise	  yield
+      continue	exec	  if	      nonlocal	return
+```
+
