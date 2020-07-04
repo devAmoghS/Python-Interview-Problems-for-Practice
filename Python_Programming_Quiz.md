@@ -130,3 +130,15 @@ Placing a comma-separated list of key:value pairs within the braces adds initial
 Dictionaries are sometimes found in other languages as __associative memories__ or __associative arrays__. <br> 
 Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by __keys__, which can be any __immutable type__ <br> 
 `strings` and `numbers` can always be keys
+
+#### 8. Which are the assignment operators in Python ? <br>
+Operator | Description | 
+--- | --- |
+`=` | Assign |
+`+=` | Add and Assign |
+`-=` | Subtract and Assign |
+`*=` | Multiply and Assign |
+`/=` | Divide and Assign |
+`%=` | Modulus and Assign |
+`**=` | Exponent and Assign |
+`//=` | Floor Divide and Assign |
