@@ -57,3 +57,28 @@ break | else | from | None | print | with
 class | except | global | or | return | yield
 continue | exec | if | pass | raise | 
 
+#### 4. Which are some useful string methods in Python ? <br>
+Methods | Description | 
+--- | --- |
+`tolower()` | Converts a string into lower case | 
+`toupper()` | Converts a string into upper case |
+`swapcase()` | Swaps cases, lower case becomes upper case and vice versa |
+`islower()` | Returns True if all characters in the string are lower case | 
+`isupper()` | Returns True if all characters in the string are upper case | 
+`isalnum()` | Returns True if all characters in the string are alphanumeric
+ |
+`isalpha()` | Returns True if all characters in the string are in the alphabet | 
+`isnumeric()` | Returns True if all characters in the string are numeric | 
+`capitalize()` | Converts the first character to upper case | 
+`startswith()` | Returns true if the string starts with the specified value | 
+`endswith()` | Returs true if the string ends with the specified value |
+`replace()` | Returns a string where a specified value is replaced with a specified value | 
+`split()` | Splits the string at the specified separator, and returns a list |
+`splitlines()` | Splits the string at line breaks and returns a list |
+`join()`  | Joins the elements of an iterable to the end of the string |
+`strip()` | Returns a trim version of the string |
+`lstrip()` | Returns a left trim version of the string |
+`rstrip()` | Returns a right trim version of the string |
+`count()` | Returns the number of times a specified value occurs in a string | 
+`find()` | Searches the string for a specified value and returns the position of where it was found | 
+
