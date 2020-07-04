@@ -117,3 +117,13 @@ A Thread is defined in computer science as the smallest unit that can be schedul
 - A running thread that is done executing terminates and is in the dead state
 
 ![Life cycle of a thread](https://www.tutorialspoint.com/java/images/Thread_Life_Cycle.jpg)
+
+#### 7. What is the `dict()` data structure in Python ? <br>
+It is best to think of a dictionary as a __set of key: value pairs__, with the requirement that the __keys are unique (within one dictionary)__. <br>
+A pair of braces creates an empty dictionary. Something like this <br>
+`empty_dic = {}` <br>
+Placing a comma-separated list of key:value pairs within the braces adds initial key:value pairs to the dictionary <br>
+`student = {'name': "Narendra", 'class': "Junior", 'dob': "2002-01-03"}` <br>
+Dictionaries are sometimes found in other languages as __associative memories__ or __associative arrays__. <br> 
+Unlike sequences, which are indexed by a range of numbers, dictionaries are indexed by __keys__, which can be any __immutable type__ <br> 
+`strings` and `numbers` can always be keys
