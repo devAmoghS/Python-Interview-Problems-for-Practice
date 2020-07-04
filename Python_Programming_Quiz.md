@@ -102,3 +102,18 @@ Methods | Description |
 - Extensive Libraries
 - Integration with other languages
 - Databases Connectivity interfaces to all commercial databases
+
+#### 6. How do you remove a duplicate from a Python list ? <br>
+Convert the `list()` to `set()`
+
+#### 7. What is the life cycle of a thread in Python ? <br>
+A Thread is defined in computer science as the smallest unit that can be scheduled in an operating system
+
+- To create a thread, we create a class that we make override the `run` method of the thread class. Then, we instantiate it.
+- A thread that we just created is in the new state. When we make a call to `start()` on it, it forwards the threads for scheduling. These are in the ready state.
+- When execution begins, the thread is in the running state.
+- Calls to methods like `sleep()` and `wait()` make a thread wait. Such a thread is in the waiting/blocked state.
+- When a thread is done waiting or executing, other waiting threads are sent for scheduling.
+- A running thread that is done executing terminates and is in the dead state
+
+![Life cycle of a thread](https://www.tutorialspoint.com/java/images/Thread_Life_Cycle.jpg)
