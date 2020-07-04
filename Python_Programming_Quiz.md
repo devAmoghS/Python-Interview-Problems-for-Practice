@@ -81,3 +81,13 @@ Methods | Description |
 `count()` | Returns the number of times a specified value occurs in a string | 
 `find()` | Searches the string for a specified value and returns the position of where it was found | 
 
+#### 5. Although Python is riding the hype wave pretty well since its high usage in fields of AI , what are some of the pitfalls of Python as a language? <br>
+1. __Speed__ Python is __slower__ than C or C++. But of course, Python is a high-level language, unlike C or C++ it's not closer to hardware.
+
+2. __Mobile Development__ Python is not a very good language for __mobile development__ . It is seen as a weak language for mobile computing. 
+
+3. __Memory Consumption__ Python is not a good choice for __memory intensive__ tasks. Due to the flexibility of the data-types, Python's memory consumption is also __high__.
+
+4. __Database Access__ Python has limitations with __database access__ . As compared to the popular technologies like JDBC and ODBC, the Python's database access layer is found to be bit underdeveloped and primitive .
+
+5. __Runtime Errors__ Python programmers cited several issues with the __design__ of the language. Because the language is __dynamically typed__ , it requires more testing and has errors that only show up at __runtime__ .
