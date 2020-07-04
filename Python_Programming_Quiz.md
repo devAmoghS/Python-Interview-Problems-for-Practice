@@ -52,7 +52,7 @@ Methods in list: `append(), insert(), remove(), pop(), clear(), sort(), and reve
 and | def | False | import | not | True
 --- | --- | --- | --- | --- | ---
 __as__ | __del__ | __finally__ | __in__ | __lambda__ | __try__
-__assert | __elif__ | __for__ | __is__ | __nonlocal__ | __while__
+__assert__ | __elif__ | __for__ | __is__ | __nonlocal__ | __while__
 __break__ | __else__ | __from__ | __None__ | __print__ | __with__
 __class__ | __except__ | __global__ | __or__ | __return__ | __yield__
 __continue__ | __exec__ | __if__ | __pass__ | __raise__ | 
