@@ -51,11 +51,11 @@ Methods in list: `append(), insert(), remove(), pop(), clear(), sort(), and reve
 #### 4. List some of the keywords in Python ? <br>
 and | def | False | import | not | True
 --- | --- | --- | --- | --- | ---
-as | del | finally | in | lambda | try
-assert | elif | for | is | nonlocal | while
-break | else | from | None | print | with
-class | except | global | or | return | yield
-continue | exec | if | pass | raise | 
+__as__ | __del__ | __finally__ | __in__ | __lambda__ | __try__
+__assert | __elif__ | __for__ | __is__ | __nonlocal__ | __while__
+__break__ | __else__ | __from__ | __None__ | __print__ | __with__
+__class__ | __except__ | __global__ | __or__ | __return__ | __yield__
+__continue__ | __exec__ | __if__ | __pass__ | __raise__ | 
 
 #### 4. Which are some useful string methods in Python ? <br>
 Methods | Description | 
