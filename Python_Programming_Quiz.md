@@ -164,6 +164,8 @@ If the passed iterators have different lengths, the iterator with the least item
 
 zip can also work with **lists**
 
+__Syntax:__ `zip(iterator1, iterator2, iterator3 ...) -> zip object`
+
 ```
 a = ("John", "Charles", "Mike")
 b = ("Jenny", "Christy", "Monica", "Vicky")
@@ -175,4 +177,54 @@ x = zip(a, b)
 print(tuple(x))
 # prints (('John', 'Jenny'), ('Charles', 'Christy'), ('Mike', 'Monica'))
 
+```
+#### 11. Given the first and last names of all employees in your firm, what data type will you use to store it?
+
+#### 12.What does the function `range()` do? <br>
+The range() function is used to generate a sequence of numbers over time. <br>
+At its simplest, it accepts an integer and returns a `range` object (a type of iterable) <br>
+
+__Syntax:__ `range([start,] stop [, step]) -> range object`
+
+Paramter | Description | 
+--- | --- |
+`start`(optional) |  Starting point of the sequence. It defaults to 0. |
+`stop` (required) | Endpoint of the sequence. This item will not be included in the sequence. |
+`step` (optional) | Step size of the sequence. It defaults to `1`.|
+
+```
+>>>
+>>> range(5, 10)
+range(5, 10)
+>>> 
+>>> list(range(5, 10))
+[5, 6, 7, 8, 9]
+>>>
+```
+
+When `range()` is called with a single argument it generates a sequence of numbers from `0` upto the argument specified __(but not including it)__. That's why the number `5` is not included in the sequence.
+
+Here the `range()` function is called with a `step` argument of `3`, so it will return __every third element__ from `1` to `20` (off course not including 20).
+
+```
+>>> 
+>>> range(1, 20, 3)
+range(1, 20, 3)
+>>> 
+>>> 
+>>> list(range(1, 20, 3))
+[1, 4, 7, 10, 13, 16, 19]
+>>>
+```
+
+You can also use the step argument to count backwards. `step` becomes a negative number in that case
+
+```
+>>> 
+>>> list(range(20, 10, -1))
+[20, 19, 18, 17, 16, 15, 14, 13, 12, 11]
+>>> 
+>>> list(range(20, 10, -5))
+[20, 15]
+>>>
 ```
