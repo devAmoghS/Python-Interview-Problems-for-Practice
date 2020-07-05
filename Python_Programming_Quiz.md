@@ -142,3 +142,17 @@ Operator | Description |
 `%=` | Modulus and Assign |
 `**=` | Exponent and Assign |
 `//=` | Floor Divide and Assign |
+
+#### 8. What is recursion ? <br>
+When a function makes a call to itself, it is termed recursion.<br>
+But then, in order for it to avoid forming an infinite loop, we must have a base condition.<br>
+
+Let’s take an example. <br>
+```
+def facto(n):
+  if n==1:
+    return 1
+return n*facto(n-1)
+
+facto(4)    # This will compute 4x3x2x1 = 24
+```
