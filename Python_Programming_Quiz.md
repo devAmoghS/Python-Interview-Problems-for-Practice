@@ -228,3 +228,13 @@ You can also use the step argument to count backwards. `step` becomes a negative
 [20, 15]
 >>>
 ```
+
+#### 13. How can you declare multiple assignments in one statement?
+
+This is one of the most asked interview questions for Python freshers<br>
+There are two ways to do this:
+
+__First:__ This assigns 3, 4, and 5 to a, b, and c respectively <br>
+` >>> a,b,c=3,4,5`  <br>   
+__Second:__  Ths assigns 3 to a, b, and c <br>
+`>>> a=b=c=3`<br>
