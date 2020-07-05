@@ -143,7 +143,7 @@ Operator | Description |
 `**=` | Exponent and Assign |
 `//=` | Floor Divide and Assign |
 
-#### 8. What is recursion ? <br>
+#### 9. What is recursion ? <br>
 When a function makes a call to itself, it is termed recursion.<br>
 But then, in order for it to avoid forming an infinite loop, we must have a base condition.<br>
 
@@ -155,4 +155,24 @@ def facto(n):
 return n*facto(n-1)
 
 facto(4)    # This will compute 4x3x2x1 = 24
+```
+
+#### 10.What does the function `zip()` do? <br>
+The `zip()` function returns a `zip` object, which is an **iterator of tuples** where the first item in each passed iterator is **paired together**, and then the second item in each passed iterator are paired together etc.
+
+If the passed iterators have different lengths, the iterator with the least items decides the length of the new iterator.
+
+zip can also work with **lists**
+
+```
+a = ("John", "Charles", "Mike")
+b = ("Jenny", "Christy", "Monica", "Vicky")
+
+x = zip(a, b)
+
+#use the tuple() function to display a readable version of the result:
+
+print(tuple(x))
+# prints (('John', 'Jenny'), ('Charles', 'Christy'), ('Mike', 'Monica'))
+
 ```
