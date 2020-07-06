@@ -322,4 +322,16 @@ finally:
 # OUTPUT:
 # This will print no matter what.
 ```
-Because in the try block we got a __DivisionByZeroException__ and not ValueError, so that is not caught and `finally` block is executed. 
+Because in the try block we got a __DivisionByZeroException__ and not ValueError, so that is not caught and `finally` block is executed.
+
+#### 17. What is the `enumerate()` function in Python?
+`enumerate()` iterates through a sequence and __extracts the index position and its corresponding value__ too.
+
+```
+>>> for i,v in enumerate(['Python','C++','Scala']):
+        print(i,v)
+# OUTPUT:
+# 0 Python
+# 1 C++
+# 2 Scala
+```
