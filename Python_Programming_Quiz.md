@@ -335,3 +335,40 @@ Because in the try block we got a __DivisionByZeroException__ and not ValueError
 # 1 C++
 # 2 Scala
 ```
+#### 18. Evaluate the output of the last line in the following code snippet.
+```
+>>> A0= dict(zip(('a','b','c','d','e'),(1,2,3,4,5)))
+>>> A1= range(10)
+>>> A2= sorted([i for i in A1 if i in A0])
+>>> A3= sorted([A0[s] for s in A0])
+>>> A4= [i for i in A1 if i in A3]
+>>> A5= {i:i*i for i in A1}
+>>> A6= [[i,i*i] for i in A1]
+>>> A0,A1,A2,A3,A4,A5,A6
+```
+
+#### 19. Implement a switch case function using Python.
+
+#### 20. Write a program in Python to count the number of capital letter in a file.
+
+```
+import os
+
+dir_path = "C:\Users\1090\"
+filename = "blob.txt"
+
+# change working directory to dir_path
+os.chdir(dir_path)
+
+# open the file
+with open(filename) as f:
+  cap_count = 0
+  # read all characters of the file
+  for char in f.read():
+    if char.isupper():
+      cap_count += 1
+
+print(cap_count)
+    for word in 
+```
+
