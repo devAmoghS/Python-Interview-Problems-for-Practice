@@ -238,3 +238,10 @@ __First:__ This assigns 3, 4, and 5 to a, b, and c respectively <br>
 ` >>> a,b,c=3,4,5`  <br>   
 __Second:__  Ths assigns 3 to a, b, and c <br>
 `>>> a=b=c=3`<br>
+
+#### 13. What is the `with` keyword in Python?
+The `with` statement in Python ensures that cleanup code is executed when working with unmanaged resources by encapsulating common preparation and cleanup tasks. <br>
+- It may be used to open a file, do something, and then __automatically close the file at the end.__
+- It may be used to open a database connection, do some processing, then __automatically close the connection to ensure resources are closed and available for others__. 
+
+`with` will __cleanup the resources even if an exception is thrown__
