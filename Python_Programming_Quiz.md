@@ -282,3 +282,24 @@ Function | Description |
 # step 3 : [-8,5]
 -13
 ```
+
+#### 17. Differentiate between the `append()` and `extend()` methods of a list.
+
+`append()` __adds an element__ to the end of the list <br> 
+`extend` __adds another list__ to the end of a list.
+
+```
+>>> list1, list2 = [1, 2, 3], [5, 6, 7, 8]
+
+# This is how append() works:
+
+>>> list1.append(4)
+>>> list1
+[1, 2, 3, 4]
+
+And this is how extend() works:
+
+>>> list1.extend(list2)
+>>> list1
+[1, 2, 3, 4, 5, 6, 7, 8]
+```
