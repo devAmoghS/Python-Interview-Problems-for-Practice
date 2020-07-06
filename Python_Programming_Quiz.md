@@ -239,9 +239,14 @@ __First:__ This assigns 3, 4, and 5 to a, b, and c respectively <br>
 __Second:__  Ths assigns 3 to a, b, and c <br>
 `>>> a=b=c=3`<br>
 
-#### 13. What is the `with` keyword in Python?
+#### 14. What is the `with` keyword in Python?
 The `with` statement in Python ensures that cleanup code is executed when working with unmanaged resources by encapsulating common preparation and cleanup tasks. <br>
 - It may be used to open a file, do something, and then __automatically close the file at the end.__
 - It may be used to open a database connection, do some processing, then __automatically close the connection to ensure resources are closed and available for others__. 
 
 `with` will __cleanup the resources even if an exception is thrown__
+
+#### 15. What is the `PYTHONPATH` variable?
+`PYTHONPATH` is the variable that tells the __interpreter where to locate the module files imported into a program__.<br>
+Hence, it must include the Python source library directory and the directories containing Python source code. <br>
+You can manually set PYTHONPATH, but usually, the Python installer will preset it.
