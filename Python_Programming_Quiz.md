@@ -372,3 +372,18 @@ print(cap_count)
     for word in 
 ```
 
+#### 21. If you installed a module with pip but it doesn’t import in your IDLE, what could it possibly be?
+
+#### 22. If while installing a package with pip, you get the error No matching installation found, what can you do?
+
+#### 23. What is the difference between a Python module and a Python library?
+
+#### 24. Explain memory management in Python. (Optional: for CS Students)
+Python manages objects by using __reference counting__. <br>
+This means that the memory manager keeps track of the number of references to each object in the program.<br>
+When an object's reference count drops to __zero__, which means the object is no longer being used, __the garbage collector (part of the memory manager) automatically frees the memory from that particular object.__
+
+The user need not to worry about memory management as __the process of allocation and de-allocation of memory is fully automatic__. The reclaimed memory can be used by other objects.
+
+
+
