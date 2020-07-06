@@ -250,3 +250,35 @@ The `with` statement in Python ensures that cleanup code is executed when workin
 `PYTHONPATH` is the variable that tells the __interpreter where to locate the module files imported into a program__.<br>
 Hence, it must include the Python source library directory and the directories containing Python source code. <br>
 You can manually set PYTHONPATH, but usually, the Python installer will preset it.
+
+#### 16. Can you do functional programming (FP) in Python ? If yes, then list the commonly used functions to enforce FP in Python. 
+
+Function | Description | 
+--- | --- |
+`filter()` |  Filter lets us filter in some values based on conditional logic. |  
+`map()` | Map applies a function to every element in an iterable. |
+`reduce()` | Reduce repeatedly reduces a sequence pair-wise until we reach a single value. |
+
+#### filter()
+```
+>>> list(filter(lambda x:x>5,range(8)))
+# range(8) -> [0,1,2,3,4,5,6,7]
+# now filter all numbers greater than 5
+[6, 7]
+```
+#### map()
+```
+>>> list(map(lambda x:x**2,range(8)))
+# range(8) -> [0,1,2,3,4,5,6,7]
+# now map will apply function x -> x**2 to all numbers from 0 to 7
+[0, 1, 4, 9, 16, 25, 36, 49]
+```
+#### reduce()
+```
+>>> from functools import reduce
+>>> reduce(lambda x,y:x-y,[1,2,3,4,5])
+# step 1 : [-1,3,4,5]
+# step 2 : [-4,4,5]
+# step 3 : [-8,5]
+-13
+```
