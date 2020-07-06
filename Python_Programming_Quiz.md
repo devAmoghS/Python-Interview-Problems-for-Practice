@@ -386,4 +386,9 @@ When an object's reference count drops to __zero__, which means the object is no
 The user need not to worry about memory management as __the process of allocation and de-allocation of memory is fully automatic__. The reclaimed memory can be used by other objects.
 
 
+#### 25. What are lambda expressions in Python ?
+
+#### 26. What are generators in Python ?
+
+#### 27. What are iterators in Python ?
 
