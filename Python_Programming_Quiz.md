@@ -303,3 +303,23 @@ And this is how extend() works:
 >>> list1
 [1, 2, 3, 4, 5, 6, 7, 8]
 ```
+
+#### 16. Explain `try`, `raise` and `finally`.
+
+These are the keywords we use with __exception-handling__.<br> 
+- We put risky code under a `try` block 
+- Use the `raise` statement to __explicitly raise an error__ 
+- Use the `finally` block to put code that __we want to execute anyway__.
+
+```
+>>> try:
+        print(1/0)
+except ValueError:
+        print("This is a value error")
+finally:
+        print("This will print no matter what.")
+        
+# OUTPUT:
+# This will print no matter what.
+```
+Because in the try block we got a __DivisionByZeroException__ and not ValueError, so that is not caught and `finally` block is executed. 
