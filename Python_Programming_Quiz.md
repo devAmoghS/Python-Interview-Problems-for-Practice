@@ -519,6 +519,17 @@ c.7
 
 For our purpose, we will use the `search()` function, and then use `group()` to get the output.
 
+`search()` will scan through a string, looking for any location where this `re` matches. It returns __None__ if no match is found. <br>
+__Syntax:__  `search(pattern, string)`<br>
+
+`group()` will return the match found in `search()`. Defaults to first match<br>
+__Syntax:__  `group(index)`
+`# group() and group(0) will give the same output` <br>
+In case there are multiple matches found, they can be retrieved using `group(index)` where __index__ starts from `0` <br>
+To access all the matches as a tuple, use `groups()` function.
+
+`.` is a wild card which will __match any character except newline__
+
 ```
 >>> import re
 >>> rhyme=re.search('.ake','I would make a cake, but I hate to bake')
@@ -527,6 +538,14 @@ For our purpose, we will use the `search()` function, and then use `group()` to 
 ```
 
 #### 32. Write a regular expression that will accept an email id. Use the re module.
+
+`.` is a wild card which will __match any character except newline__ <br>
+`[0-9a-zA-Z]+`	Any character of character class `0-9` or `a-z` or `A-Z` any number of times <br>
+`\` is used to escape a special character, in this case `.` <br>
+`()` is used to specify a group and `|` stands for __or__ <br>
+`$` is end of the string <br>
+
+Reference: [Regular Expressions Cheat Sheet](debuggex.com/cheatsheet/regex/python)
 
 ```
 >>> import re
