@@ -435,3 +435,51 @@ Note: __Use lambda functions when an anonymous function is required for a short 
 #### 27. What are iterators in Python ?
 
 #### 28. What is the difference between an iterator and a generator ?
+
+#### 29. What do you know about palindromes? Can you implement one in Python?
+
+A palindrome is a phrase, a word, or a sequence that reads the same forward and backward. <br> 
+One such example will be _pip_ An example of such a phrase will be _‘nurses run’_.
+
+__Normal Function Implementation:__
+
+```
+def isPalindrome(string):
+  left, right = 0, len(string)-1
+  while right >= left:
+  if not string[left] == string[right]:
+    return False
+  left+=1;right-=1
+  return True
+
+isPalindrome('redrum murder')
+# returns True
+
+isPalindrome('CC.')
+# returns False
+```
+
+__Iterator Implementation:__
+
+```
+def isPalindrome(string):
+  left, right = iter(string), iter(string[::-1])
+  i=0
+  while i < len(string)/2:
+    if next(left)!=next(right):
+      return False
+    i+=1
+    return True
+    
+isPalindrome('redrum murder')
+# prints True
+
+isPalindrome('CC.')
+# prints False
+
+isPalindrome('CCC.')
+# prints False
+
+isPalindrome('CCC')
+# prints True
+```
