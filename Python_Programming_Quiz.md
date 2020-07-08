@@ -434,3 +434,4 @@ Note: __Use lambda functions when an anonymous function is required for a short 
 
 #### 27. What are iterators in Python ?
 
+#### 28. What is the difference between an iterator and a generator ?
