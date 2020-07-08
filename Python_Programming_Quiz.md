@@ -514,3 +514,23 @@ a.1
 b.2
 c.7
 ```
+
+#### 31. How will you find, in a string, the first word that rhymes with ‘cake’?
+
+For our purpose, we will use the `search()` function, and then use `group()` to get the output.
+
+```
+>>> import re
+>>> rhyme=re.search('.ake','I would make a cake, but I hate to bake')
+>>> rhyme.group()
+‘make’
+```
+
+#### 32. Write a regular expression that will accept an email id. Use the re module.
+
+```
+>>> import re
+>>> e=re.search(r'[0-9a-zA-Z.]+@[a-zA-Z]+\.(com|co\.in)$','abc@gmail.com')
+>>> e.group()
+‘abc@gmail.com’
+```
