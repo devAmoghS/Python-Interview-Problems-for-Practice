@@ -387,6 +387,48 @@ The user need not to worry about memory management as __the process of allocatio
 
 
 #### 25. What are lambda expressions in Python ?
+A lambda function is a small anonymous function.<br>
+A lambda function can take any number of arguments, but can only have one expression.<br>
+__Syntax:__  `lambda arguments : expression`
+
+```
+A lambda function that adds 10 to the number passed in as an argument, and print the result:
+
+x = lambda a : a + 10
+print(x(5))
+# prints 15
+```
+
+- Lambda functions can take any number of arguments
+
+```
+A lambda function that multiplies argument a with argument b and print the result:
+
+x = lambda a, b : a * b
+print(x(5, 6))
+# prints 30
+```
+- The power of lambda is better shown when you use them as an __anonymous function inside another function.__
+
+Say you have a function definition that takes one argument, and that argument will be multiplied with an unknown number:
+
+```
+def myfunc(n):
+  return lambda a : a * n
+```
+
+Use that function definition to make a function that always doubles the number you send in
+
+```
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+
+print(mydoubler(11))
+# prints 22
+```
+Note: __Use lambda functions when an anonymous function is required for a short period of time__
 
 #### 26. What are generators in Python ?
 
