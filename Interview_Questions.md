@@ -28,7 +28,7 @@ Solution: LIFO is a short form of Last In First Out. It refers how data is acces
 
 Solution: Merge sort, is a  divide-and-conquer approach for sorting the data. In a sequence of data, adjacent ones are merged and sorted to create bigger sorted lists. These sorted lists are then merged again to form an even bigger sorted list, which continues until you have one single sorted list.
 
-## 8. What are the minimum number of queues to implement a prioriy queue ?
+## 8. What are the minimum number of queues to implement a priority queue ?
 
 Solution: The minimum number of queues needed in this case is two. One queue is intended for sorting priorities while the other queue is used for actual storage of data.
 
