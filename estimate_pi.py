@@ -1,7 +1,7 @@
 import numpy as np
 from math import pi as PI
 
-def estimate_pi(sims=100):
+def estimate_pi(sims):
     """
     takes the number of simulations as input to estimate pi
     """
