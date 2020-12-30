@@ -28,18 +28,10 @@ def estimate_pi(sims=100):
     print("Estimated pi", pi_estimated)
     print("Error", PI - pi_estimated)
 
-estimate_pi(sims=100)    
-print()
-estimate_pi(sims=1000)
-print()
-estimate_pi(sims=10000)    
-print()
-estimate_pi(sims=100000)
-print()
-estimate_pi(sims=1000000)    
-print()
-estimate_pi(sims=10000000)
-print()
-estimate_pi(sims=100000000)    
-print()
-estimate_pi(sims=1000000000) 
+pow = 0
+input_sims = 100
+while pow <= 8:
+    estimate_pi(sims=input_sims)
+    pow += 1
+    input_sims *= 10
+
