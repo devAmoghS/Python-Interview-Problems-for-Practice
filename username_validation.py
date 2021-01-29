@@ -10,48 +10,29 @@
 def UsernameValidation(strParam):
 
   # username is between 4 and 25 characters
-  if len(strParam) <= 25 and len(strParam) >= 4:
-    flag1 = True
-  else:
-    flag1 = False
+  if len(strParam) < 4 or len(strParam) > 25 :
+    return False
 
   # start with a letter
-  if str(strParam[0]).isalpha():
-    flag2 = True
-  else:
-    flag2 = False
-
-  # contains only letters, numbers and underscore
-  valid_grammar = "abcdefghijklmnopqrstuvwxyz0123456789_"
-
-  for char in strParam:
-    if str(char).isalpha() == False:
-      if char in valid_grammar:
-        flag3 = True
-      else:
-        flag3 = False
-
-    else:
-      if str.lower(char) in valid_grammar:
-        flag3 = True
-      else:
-        flag3 = False    
-
+  if not str(strParam[0]).isalpha():
+    return False;
 
   # can't end with an underscore
-  if str(strParam[-1]) != '_':
-    flag4 = True
-  else:
-    flag4 = False
+  if str(strParam[-1] ) == '_':
+    return False;
 
-  final_output = flag1 and flag2 and flag3 and flag4
+  # contains only letters, numbers and underscore
+  valid_grammar = set('abcdefghijklmnopqrstuvwxyz0123456789_')
 
-  # code goes here
-  return final_output
+  for ch in strParam:
+    if ch.lower() not in valid_grammar:
+      return False;
+
+  return True
 
 # keep this function call here
 TC1 = "aa_"
-TC2 = "u__hello_world123"
+TC2 = "uaa__hello_worldW"
 
 print(TC1, UsernameValidation(TC1))
 print(TC2, UsernameValidation(TC2))
