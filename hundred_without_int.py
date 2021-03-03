@@ -1,5 +1,8 @@
 # Print numbers 1 to 100 without using any numbers or integers
 
+# APPRAOCH
+# Use Boolean values
+
 ONE = str(int(True))
 ZERO = str(int(False))
 HUNDRED  = int(ONE + ZERO + ZERO)
