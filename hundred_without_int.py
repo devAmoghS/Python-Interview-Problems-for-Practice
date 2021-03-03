@@ -19,3 +19,17 @@ for i in range(int(ONE), HUNDRED+1):
 # 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 
 # 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 
 # 91, 92, 93, 94, 95, 96, 97, 98, 99, 100,
+
+
+# ALTERNATE APPROACH
+# ORD (or "ordinal") function in python gives the ASCII
+# (American Standard Code for information interchange) value 
+# of characters ranging from 0-256 in 8 bits of memory which 
+# is equal to a byte.
+
+ONE = str(ord('b') - ord('a'))
+ZERO = str(ord('a') - ord('a'))
+HUNDRED  = int(ONE + ZERO + ZERO)
+
+for i in range(int(ONE), HUNDRED+1):
+  print(i, end=', ')
