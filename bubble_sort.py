@@ -24,8 +24,8 @@ def bubbleSortOptimized(arr):
     
     for j in range(0, len(arr)-i-1):
       
-      if arr[i] > arr[j]:
-        arr[i], arr[j] = arr[j], arr[i]
+      if arr[j] > arr[j+1]:
+        arr[j], arr[j+1] = arr[j+1], arr[j]
         swapped = True
     
     # if no elements are swapped, break the loop
