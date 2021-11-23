@@ -34,3 +34,17 @@ def is_prime(num):
     print(f"{num} is prime...")
 
 is_prime(7919) # 7919 is prime
+
+
+def fibo_iter(n_terms):
+  first, second = 0, 1
+  for i in range(0, n_terms):
+    if i <= 1:
+      result = i
+    else:
+      result = first + second
+      first = second
+      second = result
+    print(result, end=' ')
+
+fibo_iter(5) # 0 1 1 2 3
