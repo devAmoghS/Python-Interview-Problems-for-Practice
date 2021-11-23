@@ -48,3 +48,15 @@ def fibo_iter(n_terms):
     print(result, end=' ')
 
 fibo_iter(5) # 0 1 1 2 3
+
+def fibo_recur(n):
+  if n == 0:
+    return 0
+  elif n == 1:
+    return 1
+  else:
+    return fibo_recur(n-1) + fibo_recur(n-2)
+
+
+for i in range(0, 10):
+  print(fibo_recur(i), end=' ') # 0 1 1 2 3 5 8 13 21 34
