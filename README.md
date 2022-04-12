@@ -6,6 +6,12 @@
 
 ## Updates
 
+| Problem  |  Link |
+|---|---|
+| Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.  | [adjacentElementProduct.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/adjacentElementProduct.py)  |
+|   |   |
+|   |   |
+
 #### Problems available: Solved -- 63 ; Newly Added -- 57
 
 #### 1. Code Style is added 
