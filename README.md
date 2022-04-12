@@ -9,8 +9,14 @@
 | Problem  |  Link |
 |---|---|
 | Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.  | [adjacentElementProduct.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/adjacentElementProduct.py)  |
-|   |   |
-|   |   |
+| Convert the string "123" into 123, without using the built-api `int()`  | [atoi.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/atoi.py)  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
 
 #### Problems available: Solved -- 63 ; Newly Added -- 57
 
