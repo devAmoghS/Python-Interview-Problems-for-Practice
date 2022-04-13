@@ -10,7 +10,7 @@
 |---|---|
 | Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.  | [adjacentElementProduct.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/adjacentElementProduct.py)  |
 | Convert the string "123" into 123, without using the built-api `int()`  | [atoi.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/atoi.py)  |
-|   | []()  |
+| Given an array , find if the number exists, develop a `recursive` implementation of the binary search. If the element is not found it returns -1  | [binary_search_recursive.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/binary_search_recursive.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
