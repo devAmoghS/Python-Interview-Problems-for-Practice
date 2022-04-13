@@ -13,7 +13,7 @@
 | Given an array , find if the number exists, develop a `recursive` implementation of the binary search. If the element is not found it returns -1  | [binary_search_recursive.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/binary_search_recursive.py)  |
 |  Bresenham Line Algorithm (BLA) is one of the earliest algorithms developed in computer graphics. It is used for drawing lines | [bresenham_line_algorithm.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/bresenham_line_algorithm.py)  |
 |  Find the no. of nodes in a BST that lies in a given range | [bst_nodes_in_range.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/bst_nodes_in_range.py)  |
-|   | []()  |
+| Bubble Sort  | [bubbleSort.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/bubble_sort.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
