@@ -34,13 +34,13 @@
 | Tree Data Structure in Python  | [general_tree_structure.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/general_tree_structure.py)  |
 | Given the arrival and departure times of all trains that reach a railway station, the task is to find the minimum number of platforms required for the railway station so that no train waits. 
 We are given two arrays that represent the arrival and departure times of trains that stop.  | [getMinPlatforms.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/getMinPlatforms.py)  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
+| Print duplicate characters in a string | [get_dup_chars.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/get_dup_chars.py)  |
+| Check if a given array has zero sum sub array  | [hasZeroSumSubArray.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/hasZeroSumSubArray.py)  |
+| Given a string, check if it only contains digits  | [has_only_digits.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/has_only_digits.py)  |
+|  Given two lat, long coordinates , calculate `Haversine` distance between them | [haversine.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/haversine.py)  |
+| Heap Data Structure  | [heap_structure.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/heap_structure.py)  |
+| Print numbers 1 to 100 without using any numbers or integers  | [hundred_without_int.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/hundred_without_int.py)  |
+| Write a program to convert interger to Roman Representation  | [interger_to_roman_num.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/interger_to_roman_num.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
