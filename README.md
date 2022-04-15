@@ -32,6 +32,42 @@
 |  Given a string, find the first non-repeating character in it. For example, if the input string is “GeeksforGeeks”, then output should be ‘f’ and if input string is “GeeksQuiz”, then output should be ‘G’. | [first_unique_letter.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/first_unique_letter.py)  |
 | Write a function that given a list of non negative integers, arranges them such that they form the largest possible number. For example, given [50, 2, 1, 9], the largest formed number is 95021  | [gen_largest_num_frm_list.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/gen_largest_num_frm_list.py)  |
 | Tree Data Structure in Python  | [general_tree_structure.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/general_tree_structure.py)  |
+| Given the arrival and departure times of all trains that reach a railway station, the task is to find the minimum number of platforms required for the railway station so that no train waits. 
+We are given two arrays that represent the arrival and departure times of trains that stop.  | [getMinPlatforms.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/getMinPlatforms.py)  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
