@@ -22,8 +22,9 @@
 | Estimate pi using random distribution  | [estimate_pi.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/estimate_pi.py)  |
 | Write an efficient program for printing k largest elements in an array. Elements in array can be in any order.  | [find_k_largest.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_k_largest.py)  |
 | Given a linked list, this method will return m'th element to the last 2->3->4->8->5; m=2 will return 8 since 8 is second to last  | [find_m_to_last_llist.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_m_to_last_llist.py)  |
-|   | []()  |
-|   | []()  |
+|  Given an array of numbers, find all the pairs of numbers which sum upto `k`
+ | [find_pairs_sum_k.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_pairs_sum_k.py)  |
+|  Given an array of numbers, find all the pairs of numbers whose product is `k`  | [find_products_pair_k.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_products_pair_k.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
