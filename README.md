@@ -43,13 +43,13 @@ We are given two arrays that represent the arrival and departure times of trains
 | Write a program to convert interger to Roman Representation  | [interger_to_roman_num.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/interger_to_roman_num.py)  |
 | Given two sorted array of sizes m and n in which all elements are distinct. Find the common elements between them  | [intersection_arrays.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/intersection_arrays.py)  |
 | Check if a matrix is symmetric or not  | [isMatrixSymmetric.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/isMatrixSymmetric.py)  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
+| Check if two strings are anagrams of each other | [is_anagram.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/is_anagram.py)  |
+| Check if two strings are anagrams of each other  | [is_anagram_using_collections.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/is_anagram_using_collections.py)  |
+| Write a program to check if a number is a palindrome or not | [is_num_palindrome.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/is_num_palindrome.py)  |
+| Given a string, return True if it is a numeric data type, False otherwise  | [is_numeric.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/is_numeric.py)  |
+| N soldiers are standing in a circle and first person has sword and he kills the 2nd person and gives the sword to the third person and so on till 99th person kills the 100th person gives the sword back to the first person, this goes on till only one person survives. Print the survivor.  | [josephus.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/josephus.py)  |
+| The effective time complexity of this improved version is O(logN). For the problem statement, refer `josephus.py`  | [josephus_improved.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/josephus_improved.py)  |
+| The effective time complexity of this improved version is O(1). For the problem statement, refer `josephus.py` | [josephus_improved_v3.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/josephus_improved_v3.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
