@@ -41,8 +41,8 @@ We are given two arrays that represent the arrival and departure times of trains
 | Heap Data Structure  | [heap_structure.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/heap_structure.py)  |
 | Print numbers 1 to 100 without using any numbers or integers  | [hundred_without_int.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/hundred_without_int.py)  |
 | Write a program to convert interger to Roman Representation  | [interger_to_roman_num.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/interger_to_roman_num.py)  |
-|   | []()  |
-|   | []()  |
+| Given two sorted array of sizes m and n in which all elements are distinct. Find the common elements between them  | [intersection_arrays.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/intersection_arrays.py)  |
+| Check if a matrix is symmetric or not  | [isMatrixSymmetric.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/isMatrixSymmetric.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
