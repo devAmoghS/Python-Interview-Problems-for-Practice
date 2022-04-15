@@ -14,10 +14,11 @@
 |  Bresenham Line Algorithm (BLA) is one of the earliest algorithms developed in computer graphics. It is used for drawing lines | [bresenham_line_algorithm.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/bresenham_line_algorithm.py)  |
 |  Find the no. of nodes in a BST that lies in a given range | [bst_nodes_in_range.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/bst_nodes_in_range.py)  |
 | Bubble Sort  | [bubbleSort.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/bubble_sort.py)  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
+| Find the angle made by the hour hand and the minute hand at any given time. Assume it is an analog clock  | [calculateClockAngle.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/calculateClockAngle.py)  |
+| Two strings of sizes m and n are given, we have to find how many characters need to be removed from both the string so that they become anagrams of each other | [check_anagrams.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/check_anagrams.py)  |
+| Find the numbers which are semiprimes, within a given range. A semiprime is a product of two prime numbers, not necessarily distinct. Squares of prime numbers are also semiprimes.  | [check_semiprime.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/check_semiprime.py)  |
+| Given a graph, there are two methods to perform traversal on it. <br>
+1. Depth First Search (DFS) <br> 2. Breadth First Search (BFS)  | [dfs_bfs.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/dfs_bfs.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
