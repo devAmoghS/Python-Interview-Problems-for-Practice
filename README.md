@@ -18,10 +18,10 @@
 | Two strings of sizes m and n are given, we have to find how many characters need to be removed from both the string so that they become anagrams of each other | [check_anagrams.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/check_anagrams.py)  |
 | Find the numbers which are semiprimes, within a given range. A semiprime is a product of two prime numbers, not necessarily distinct. Squares of prime numbers are also semiprimes.  | [check_semiprime.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/check_semiprime.py)  |
 | Given a graph, there are two methods to perform traversal on it 1. Depth First Search (DFS) 2. Breadth First Search (BFS)  | [dfs_bfs.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/dfs_bfs.py)  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
+| The diameter of a tree (sometimes called the width) is the number of nodes on the longest path between two end nodes(leftmost leaf node and rightmost leaf node).  | [diameterOfTree.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/diameterOfTree.py)  |
+| Estimate pi using random distribution  | [estimate_pi.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/estimate_pi.py)  |
+| Write an efficient program for printing k largest elements in an array. Elements in array can be in any order.  | [find_k_largest.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_k_largest.py)  |
+| Given a linked list, this method will return m'th element to the last 2->3->4->8->5; m=2 will return 8 since 8 is second to last  | [find_m_to_last_llist.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_m_to_last_llist.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
