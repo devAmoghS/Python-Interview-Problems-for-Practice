@@ -24,8 +24,8 @@
 | Given a linked list, this method will return m'th element to the last 2->3->4->8->5; m=2 will return 8 since 8 is second to last  | [find_m_to_last_llist.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_m_to_last_llist.py)  |
 |  Given an array of numbers, find all the pairs of numbers which sum upto `k`| [find_pairs_sum_k.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_pairs_sum_k.py)  |
 |  Given an array of numbers, find all the pairs of numbers whose product is `k`  | [find_products_pair_k.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_products_pair_k.py)  |
-|   | []()  |
-|   | []()  |
+| Given an array of integers, write a function that returns true if there is a triplet (a, b, c) that satisfies a^2 + b^2 = c^2.  | [find_pythagoras_triplet.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_pythagoras_triplet.py)  |
+|  Given a binary tree, find the second largest node in it | [find_second_largest_in_binary_tree.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_second_largest_in_binary_tree.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
