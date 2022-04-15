@@ -26,7 +26,7 @@
 |  Given an array of numbers, find all the pairs of numbers whose product is `k`  | [find_products_pair_k.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_products_pair_k.py)  |
 | Given an array of integers, write a function that returns true if there is a triplet (a, b, c) that satisfies a^2 + b^2 = c^2.  | [find_pythagoras_triplet.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_pythagoras_triplet.py)  |
 |  Given a binary tree, find the second largest node in it | [find_second_largest_in_binary_tree.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_second_largest_in_binary_tree.py)  |
-|   | []()  |
+| Write a function that computes the list of the first 100 Fibonacci numbers  | [first_n_fibo.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/first_n_fibo.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
