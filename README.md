@@ -27,11 +27,11 @@
 | Given an array of integers, write a function that returns true if there is a triplet (a, b, c) that satisfies a^2 + b^2 = c^2.  | [find_pythagoras_triplet.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_pythagoras_triplet.py)  |
 |  Given a binary tree, find the second largest node in it | [find_second_largest_in_binary_tree.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/find_second_largest_in_binary_tree.py)  |
 | Write a function that computes the list of the first 100 Fibonacci numbers  | [first_n_fibo.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/first_n_fibo.py)  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
+| Given an input string, it gives the first non repeating character in it  | [first_non_repeating.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/first_non_repeating.py)  |
+| Given an input string, find the first recurring character in it.  | [first_recurring_character.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/first_recurring_character.py)  |
+|  Given a string, find the first non-repeating character in it. For example, if the input string is “GeeksforGeeks”, then output should be ‘f’ and if input string is “GeeksQuiz”, then output should be ‘G’. | [first_unique_letter.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/first_unique_letter.py)  |
+| Write a function that given a list of non negative integers, arranges them such that they form the largest possible number. For example, given [50, 2, 1, 9], the largest formed number is 95021  | [gen_largest_num_frm_list.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/gen_largest_num_frm_list.py)  |
+| Tree Data Structure in Python  | [general_tree_structure.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/general_tree_structure.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
