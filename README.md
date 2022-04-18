@@ -50,15 +50,16 @@ We are given two arrays that represent the arrival and departure times of trains
 | N soldiers are standing in a circle and first person has sword and he kills the 2nd person and gives the sword to the third person and so on till 99th person kills the 100th person gives the sword back to the first person, this goes on till only one person survives. Print the survivor.  | [josephus.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/josephus.py)  |
 | The effective time complexity of this improved version is O(logN). For the problem statement, refer `josephus.py`  | [josephus_improved.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/josephus_improved.py)  |
 | The effective time complexity of this improved version is O(1). For the problem statement, refer `josephus.py` | [josephus_improved_v3.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/josephus_improved_v3.py)  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
+| Implement the Karatsuba algorithm  | [karatsuba.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/karatsuba.py)  |
+| Implement Level Order traversal for a binary tree  | [level_order_tree.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/level_order_tree.py)  |
+| Linked List Data Structure  | [linked_list_data_structure.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/linked_list_data_structure.py)  |
+| Detect if a linked list has a loop  | [loop_in_linkedlist.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/loop_in_linkedlist.py)  |
+|  Find the Lowest Common ancestor between two nodes in a binary search tree. Let T be a rooted tree. The lowest common ancestor between two nodes n1 and n2 is defined as the lowest node in T that has both n1 and n2 as descendants (where we allow a node to be a descendant of itself).
+The LCA of n1 and n2 in T is the shared ancestor of n1 and n2 that is located farthest from the root. | [lowest_common_ancestor.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/lowest_common_ancestor.py)  |
+| A majority element in an array A[] of size n is an element that appears more than n/2 times. Find the majority element in the given array.  | [majority_element.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/majority_element.py)  |
+| Find the max number in an array without using built-in functions | [max_in_array.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/max_in_array.py)  |
+| Given a list of positive and negative numbers, find the maximum subarray sum. Constraint: Solve it in O(n)  | [maximum_subarray_sum.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/maximum_subarray_sum.py)  |
+| Implementation of Merge Sort  | [merge_sort.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/merge_sort.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
