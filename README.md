@@ -75,6 +75,27 @@ The LCA of n1 and n2 in T is the shared ancestor of n1 and n2 that is located fa
 | Implementation of a Queue Data Structure  | [queue_data_structure.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/queue_data_structure.py)  |
 | Implementation of Quick Sort  | [quick_sort.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/quick_sort.py)  |
 | Write an efficient function that deletes characters from an ASCII string where any character existing in remove must be deleted from str. For example, given a str of "Battle of the Vowels: Hawaii vs. Grozny" and a remove of "aeiou", the function should transform str to “Bttl f th Vwls: Hw vs. Grzny”.  | [remove_chars.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/remove_chars.py)  |
+|  Remove duplicate characters from string | [remove_dup_chars.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/remove_dup_chars.py)  |
+| Remove duplicates using a dictionary  | [remove_duplicates.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/remove_duplicates.py)  |
+| Remove duplicates using extra space  | [remove_duplicates_v2.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/remove_duplicates_v2.py)  |
+|  Reverse the string in place | [reverse_in_place.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/reverse_in_place.py)  |
+| Reverse the string using recursion | [reverse_str_recursive.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/reverse_str_recursive.py)  |
+| Given a sentence, reverse each word but don't reverse the sentence  | [reverse_words.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/reverse_words.py)  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
+|   | []()  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
