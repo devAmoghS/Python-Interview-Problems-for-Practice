@@ -73,8 +73,8 @@ The LCA of n1 and n2 in T is the shared ancestor of n1 and n2 that is located fa
 |  Process the string "k:1 |k1:2|k2:3|k3:4" into a dictionary {k:1,k1:2,...} | [processStringToDict.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/processStringToDict.py)  |
 |  Given an array arr[] of n integers, construct a Product Array prod[] (of same size) such that prod[i] is equal to the product of all the elements of arr[] except arr[i]. | [product_puzzle.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/product_puzzle.py)  |
 | Implementation of a Queue Data Structure  | [queue_data_structure.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/queue_data_structure.py)  |
-|   | []()  |
-|   | []()  |
+| Implementation of Quick Sort  | [quick_sort.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/quick_sort.py)  |
+| Write an efficient function that deletes characters from an ASCII string where any character existing in remove must be deleted from str. For example, given a str of "Battle of the Vowels: Hawaii vs. Grozny" and a remove of "aeiou", the function should transform str to “Bttl f th Vwls: Hw vs. Grzny”.  | [remove_chars.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/remove_chars.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
