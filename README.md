@@ -81,7 +81,7 @@ The LCA of n1 and n2 in T is the shared ancestor of n1 and n2 that is located fa
 |  Reverse the string in place | [reverse_in_place.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/reverse_in_place.py)  |
 | Reverse the string using recursion | [reverse_str_recursive.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/reverse_str_recursive.py)  |
 | Given a sentence, reverse each word but don't reverse the sentence  | [reverse_words.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/reverse_words.py)  |
-|   | []()  |
+|  Given a matrix, rotate it by 180 degree | [rotateMatrix180Deg.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/rotateMatrix180Deg.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
