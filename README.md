@@ -60,17 +60,17 @@ The LCA of n1 and n2 in T is the shared ancestor of n1 and n2 that is located fa
 | Find the max number in an array without using built-in functions | [max_in_array.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/max_in_array.py)  |
 | Given a list of positive and negative numbers, find the maximum subarray sum. Constraint: Solve it in O(n)  | [maximum_subarray_sum.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/maximum_subarray_sum.py)  |
 | Implementation of Merge Sort  | [merge_sort.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/merge_sort.py)  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
+| Find the minimum and maximum numbers in an array in a single loop  | [min_max_array_oneLoop.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/min_max_array_oneLoop.py)  |
+| Given an array of integers we need to move all the zeroes to the end and maintain the order of rest of the elements. Needless to say it should be an in-place solution  | [move_zeros_to_end.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/move_zeros_to_end.py)  |
+| Print the nodes of a binary tree which do not have a sibling  | [no_sibling_tree.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/no_sibling_tree.py)  |
+| Let all odd numbers come before even numbers, and sort the odd numbers in ascending order and even numbers in descending order. For example, the string '1982376455' becomes '1355798642'  | [oddAscEvenDesc.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/oddAscEvenDesc.py)  |
+|  Compute and print the pascal traingle, given the no. of levels | [pascal_triangle.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/pascal_triangle.py)  |
+| using factorial, reduced the time complexity of program from O(2^N) to O(N)  | [pascals_triangle_improved.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/pascals_triangle_improved.py)  |
+| Print the permutations of a string  | [permutations.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/permutations.py)  |
+|  Print the permutatations of a string (Simplified) | [permute_strings.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/permute_strings.py)  |
+|  Preorder Traversal of a Binary Search Tree in Iterative fashion | [preorder_iterative_bst.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/preorder_iterative_bst.py)  |
+|  Implementation of a priority Queue | [priority_queue_simple.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/priority_queue_simple.py)  |
+|  Process the string "k:1 |k1:2|k2:3|k3:4" into a dictionary {k:1,k1:2,...} | [processStringToDict.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/processStringToDict.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
