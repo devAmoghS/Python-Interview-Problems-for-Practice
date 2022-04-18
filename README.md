@@ -71,8 +71,8 @@ The LCA of n1 and n2 in T is the shared ancestor of n1 and n2 that is located fa
 |  Preorder Traversal of a Binary Search Tree in Iterative fashion | [preorder_iterative_bst.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/preorder_iterative_bst.py)  |
 |  Implementation of a priority Queue | [priority_queue_simple.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/priority_queue_simple.py)  |
 |  Process the string "k:1 |k1:2|k2:3|k3:4" into a dictionary {k:1,k1:2,...} | [processStringToDict.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/processStringToDict.py)  |
-|   | []()  |
-|   | []()  |
+|  Given an array arr[] of n integers, construct a Product Array prod[] (of same size) such that prod[i] is equal to the product of all the elements of arr[] except arr[i]. | [product_puzzle.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/product_puzzle.py)  |
+| Implementation of a Queue Data Structure  | [queue_data_structure.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/queue_data_structure.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
