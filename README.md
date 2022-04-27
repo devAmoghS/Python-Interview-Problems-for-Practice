@@ -83,10 +83,12 @@ The LCA of n1 and n2 in T is the shared ancestor of n1 and n2 that is located fa
 | Given a sentence, reverse each word but don't reverse the sentence  | [reverse_words.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/reverse_words.py)  |
 |  Given a matrix, rotate it by 180 degree | [rotateMatrix180Deg.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/rotateMatrix180Deg.py)  |
 | Find Median from Data Stream of integers  | [running_median_integers.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/running_median_integers.py)  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
-|   | []()  |
+| Given a sorted array in which all elements appear twice (one after one) and one element appears only once. Find that element Constraints: in O(log n) complexity.  | [search_unique.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/search_unique.py)  |
+|  A simple implementation of Selection Sort | [selection_sort.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/selection_sort.py)  |
+| A simple implementation of Stack Data Structure  | [stack_data_structure.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/stack_data_structure.py)  |
+|  The span Si of the stock’s price on a given day i is defined as the maximum number of consecutive days just before the given day, for which the price of the stock on the current day is less than or equal to its price on the given day.<br>
+
+Problem: We have a series of n daily price quotes for a stock and we need to calculate span of stock’s price for all n days | [stock_span.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/stock_span.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
