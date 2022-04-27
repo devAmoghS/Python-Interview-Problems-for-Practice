@@ -87,8 +87,8 @@
 |  The span Si of the stock’s price on a given day i is defined as the maximum number of consecutive days just before the given day, for which the price of the stock on the current day is less than or equal to its price on the given day.<br /><br />Problem: We have a series of n daily price quotes for a stock and we need to calculate span of stock’s price for all n days | [stock_span.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/stock_span.py)  |
 | Write a program to sum a given array using recursion  | [sum_array_recursion.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/sum_array_recursion.py)  |
 | You are getting two streams of data with dates as key, merge the two streams and return average of the values if there is a common date else just update the value as received in the stream, refer example in the code  | [timeseries.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/timeseries.py)  |
-|   | []()  |
-|   | []()  |
+| Given two sorted array of sizes m and n in which all elements are distinct. Find the union between them Constraints: in O(m+n) complexity.  | [union_arrays.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/union_arrays.py)  |
+| Username validation program | [username_validation.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/username_validation.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
