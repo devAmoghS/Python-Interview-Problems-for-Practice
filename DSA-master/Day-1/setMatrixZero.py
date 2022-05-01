@@ -39,9 +39,14 @@ def setZeros(matrix, shape, zeros):
 
     
 
-M = [[1,1,1],[1,0,1],[1,1,1]]
-print(M)
-res = getZeros(M, (3,3))
-print(res)
-sol = setZeros(M, (3,3), res)
-print(sol)
+M = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+size_mat = (len(M), len(M[0]))
+
+print("Original Matrix: ", M)
+print("Shape of the matrix: ",size_mat)
+
+zeroLocs = getZeros(M, size_mat)
+print("Zeros found at:", zeroLocs)
+
+M_z = setZeros(M, size_mat, zeroLocs)
+print("Modified matrix is: ", M_z)
