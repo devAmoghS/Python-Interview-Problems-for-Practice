@@ -5,7 +5,7 @@ def computeCoeff(row, col):
   if col == 0 or row == col:
     return 1 # for the corners of each row
   else:
-    return computeCoeff(row-1, col) + computeCoeff(row-1, col-1) # take the numbers in previous row and left of that number
+    return computeCoeff(row-1, col) + computeCoeff(row-1, col-1) # take the numbers in previous row same column and one column left of that number
 
 def printTriangle(n):
   """
