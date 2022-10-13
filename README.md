@@ -89,7 +89,7 @@
 | You are getting two streams of data with dates as key, merge the two streams and return average of the values if there is a common date else just update the value as received in the stream, refer example in the code  | [timeseries.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/timeseries.py)  |
 | Given two sorted array of sizes m and n in which all elements are distinct. Find the union between them Constraints: in O(m+n) complexity.  | [union_arrays.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/union_arrays.py)  |
 | Username validation program | [username_validation.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/username_validation.py)  |
-|   | []()  |
+| Given an array of integers(+ve,-ve and 0) find the sign of the product of all the given values.  | [signOfProduct.py](https://github.com/devAmoghS/Python-Interview-Problems-for-Practice/blob/master/signOfProduct.py)  |
 |   | []()  |
 |   | []()  |
 |   | []()  |
