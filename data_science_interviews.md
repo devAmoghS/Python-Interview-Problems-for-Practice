@@ -77,3 +77,38 @@ Difference between Breadth-first search & Depth first search.
 
 
 ****************************************************************************
+Explanation of the past project. What were the features used and how did you determine performance? 
+
+What is the difference between linear regression and logistic regression? 
+
+What is the internal working of logistic regression (LR)? 
+
+What is the loss function of LR? 
+
+Name some hyperparameters used in LR? Why do we use regularization? 
+
+When do we use accuracy as a metric? When should we not use accuracy? 
+
+How do you deal with imbalance data? 
+
+What is SMOTE and how is it different from stratified sampling? 
+
+Watch this video to understand how SMOTE works [https://www.youtube.com/watch?v=U3X98xZ4_no] 
+
+What is better 0.51 AUC (Area Under the Curve) or 0.43 F1 score? Which one should you present to a client? 
+
+Watch this video to understand how AUC is interpreted [https://www.youtube.com/watch?v=mUMd_cKU0VM] 
+
+What does the ROC AUC value signify? 
+
+Do we only use the threshold of 0.5 or can we use other thresholds in LR? If yes, how do we find them? 
+
+Can I use a sales forecasting model built using pencils data to be used in erasers data? 
+
+How would you compare the performance of two forecasting models? 
+
+What are the different metrics used in regression analysis? Which metric should be used where? 
+
+How do you build a testing pipeline for a data science model? [https://www.kdnuggets.com/2020/08/unit-test-data-pipeline-thank-yourself-later.html] 
+
+****************************************************************************
