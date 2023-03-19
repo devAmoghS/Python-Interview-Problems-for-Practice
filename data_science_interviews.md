@@ -214,3 +214,33 @@ Given an input string, print the length of the longest common substring without 
 Given an input string, write a function that returns the Run Length Encoded string for the input string. For example, if the input string is “ssslbbbbppiitttc”, then the function should return “s3l1b4p2i2t3c1” 
 
 ****************************************************************************
+
+Given a list, `ls = [9,8,3,4,1,0,2,7,7,6]`, write a function to get nth highest element without using any inbuilt functions or sorting. 
+
+Write a python class with method to sort a list and related questions on classes, static methods, init etc. 
+
+Difference between `RANK` and `DENSE RANK`? 
+
+Difference between `parquet` and `csv` file format? How are files written in a parquet file? 
+
+What is Cursor command in SQL? 
+
+Difference between Spark vs MapReduce architecture? 
+
+Explanation of ETL pipeline 
+
+Containerization v/s virtualization 
+
+What is port redirection in docker? 
+
+How to create a table with Databricks storage? 
+
+Difference between SQL and NoSQL DB?  
+
+A scenario where data keeps on changing, with adding and updating new features , would you consider SQL or NoSQL? 
+
+What is the difference between iterators and generators 
+
+What is the difference between OLAP and OLTP?
+
+****************************************************************************
