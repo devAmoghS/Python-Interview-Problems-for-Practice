@@ -112,3 +112,35 @@ What are the different metrics used in regression analysis? Which metric should 
 How do you build a testing pipeline for a data science model? [https://www.kdnuggets.com/2020/08/unit-test-data-pipeline-thank-yourself-later.html] 
 
 ****************************************************************************
+
+How does Iterators and generators work in Python ?
+
+What does Python constructors do and how are they useful ?
+
+Explain what Map function does in Python ? 
+
+How do you flatten an image(matrix) in a deep learning architecture ?
+
+Difference between semantic segmentation and instance segmentation ?
+
+Which are the different types of pooling operations - what is the visual effect of applying a max pooling operation and average pooling operation on an image ?
+
+What is the math behind convolution operation – what will be the size of a particular image (128*128) after convolution operation with a 3*3 kernel ?
+
+what will be the size of a particular image (128*128) after convolution operation for a 3*3 image after applying 1*1 kernel ?  
+
+What is the Loss function and optimization function of region proposal network ?
+
+What is Image down sampling – why do we do down sampling ?
+
+Python coding: Solve the following using a for loop, by defining a function and put in inside a class 
+
+`#Input : a =[1,2,3] `
+
+`#Output : ["hello1","hello2","hello3"]` 
+
+Tradeoff between YOLO and FasterRCNN in terms of speed and accuracy ?
+
+What are feature maps and how are they obtained ?
+
+****************************************************************************
