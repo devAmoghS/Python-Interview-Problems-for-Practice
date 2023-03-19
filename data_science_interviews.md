@@ -182,3 +182,35 @@ What are generators in python ?
 How will you print index and values of a list without range function ?
 
 ****************************************************************************
+
+What is the difference between Docker and Containers? 
+
+How do you restart containers on failure? 
+
+How do you run a container in Docker? 
+
+Can you run a program that takes 4 hours to run in AWS Lambda? 
+
+What is the difference between ADD and COPY commands wrt. Dockerfile ? 
+
+Experience with different AWS services such as CloudFormation or Glue? 
+
+What is the schema in S3? 
+
+Can the lambda written in AWS interact with other infrastructure? 
+
+What is the Dockerfile setup if you want to expose the model as an API? 
+
+Difference between UDF, pandas UDF and pyspark UDFs? 
+
+Difference between synchronous and asynchronous request? How do you program one in Python? 
+
+What is the use of a DAG (Directed Acyclic Graph) in Spark? 
+
+Given the no. Of terms, print the Fibonacci sequence: Hint try both iterative and recursive methods [https://www.programiz.com/python-programming/examples/fibonacci-sequence] 
+
+Given an input string, print the length of the longest common substring without any repeating characters. [https://leetcode.com/problems/longest-substring-without-repeating-characters/] 
+
+Given an input string, write a function that returns the Run Length Encoded string for the input string. For example, if the input string is “ssslbbbbppiitttc”, then the function should return “s3l1b4p2i2t3c1” 
+
+****************************************************************************
