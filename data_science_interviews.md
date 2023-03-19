@@ -144,3 +144,41 @@ Tradeoff between YOLO and FasterRCNN in terms of speed and accuracy ?
 What are feature maps and how are they obtained ?
 
 ****************************************************************************
+How will you count unique values in a data frame column.   
+
+How will you convert a column data type to string ?
+
+How will you obtain correlation coefficient between 2 columns in a data frame ?
+
+How will you merge two data frame based on common column (when column name is same) ? 
+
+How will you merge you merge two data frames base on common column name (column name is different in left and right data frame) ? 
+
+Define the term correlation with respect to statistics ? 
+
+What are the types of correlation coefficient?
+
+What is the difference in Pearson correlation coefficient and spearmen correlation coefficient?
+
+How do we deal with categorical variables for statistical analysis? 
+
+How do you obtain correlation between 2 categorical variables?  
+How do you find Correlation between one categorical variable and other numerical variables?  
+
+What is the difference between dictionary and list? 
+
+How do you append a dictionary with another dictionary?  
+
+What is the difference between tuples and list ?
+
+Can a tuple have different data types of element contained within it ? 
+
+How do you read data from database directly and convert it into data frame for analysis? 
+
+How do you import file.py function into another python file ? 
+
+What are generators in python ?  
+
+How will you print index and values of a list without range function ?
+
+****************************************************************************
