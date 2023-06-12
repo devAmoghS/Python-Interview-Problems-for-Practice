@@ -1,7 +1,10 @@
 # Python-Interview-Problems-for-Practice (now supported with *Code Style*)
 
-[![star this repo](http://githubbadges.com/star.svg?user=devAmoghS&repo=Python-Interview-Problems-for-Practice&style=flat&color=fff&background=007ec6)](https://github.com/ddavison/github-badges)
-[![fork this repo](http://githubbadges.com/fork.svg?user=devAmoghS&repo=Python-Interview-Problems-for-Practice&style=flat&color=fff&background=007ec6)](https://github.com/ddavison/github-badges/fork)
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=devAmoghS/Python-Interview-Problems-for-Practice&type=Date)](https://star-history.com/#devAmoghS/Python-Interview-Problems-for-Practice&Date)
+
+
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
 ## Updates
