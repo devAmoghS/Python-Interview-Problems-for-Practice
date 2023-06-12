@@ -1,11 +1,12 @@
 # Python-Interview-Problems-for-Practice (now supported with *Code Style*)
+![GitHub stars](https://img.shields.io/github/stars/devAmoghS/Python-Interview-Problems-for-Practice?style=for-the-badge)  ![GitHub forks](https://img.shields.io/github/forks/devAmoghS/Python-Interview-Problems-for-Practice?label=Forks&style=for-the-badge) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=devAmoghS/Python-Interview-Problems-for-Practice&type=Date)](https://star-history.com/#devAmoghS/Python-Interview-Problems-for-Practice&Date)
 
 
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+
 
 ## Updates
 
