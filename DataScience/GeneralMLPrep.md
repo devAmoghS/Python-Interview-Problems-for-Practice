@@ -99,4 +99,32 @@ Advantages:
 
 Disadvantages:
 =================
-* May not significantly improve performance if base learners are not diverse. 
+* May not significantly improve performance if base learners are not diverse.
+
+Boosting
+====================================
+* This is an ensemble technique aimed at improving the accuracy and stability of ML models
+* It is done by combining weak learners(models that perfrom slightly better than random chance) to create a strong learner
+* The strong learner is built in iterations with focus on misclassified instances.
+
+How Boosting Works:
+===============
+* Sequential Learning: Models are trained sequentially, where each new model focuses on correcting errors made by previous models.
+* Weight Adjustment: Misclassified instances are given higher weights so that subsequent models pay more attention to them.
+* Final Prediction: Combine predictions from all models, typically using weighted voting or averaging
+
+Popular Boosting Algorithms:
+==========
+* AdaBoost
+* Gradient Boosting
+* XGBoost
+
+Advantages:
+==========
+* Often achieves high accuracy and performs well even with limited data.
+* Can handle various types of data and relationships.
+
+Disadvantages:
+=================
+* More prone to overfitting than bagging if not carefully tuned.
+* Requires careful tuning of parameters.
