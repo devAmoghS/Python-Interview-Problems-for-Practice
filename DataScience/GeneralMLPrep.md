@@ -31,3 +31,30 @@ RNNs are commonly used in:
 * Natural Language Processing: Tasks such as language modeling, text generation, and sentiment analysis.
 * Speech Recognition: Processing audio signals to convert speech into text.
 * Time Series Prediction: Forecasting stock prices or weather conditions based on historical data.
+
+Decision Tree
+==========
+* Decision tree is a supervised ML algorithm used in classification and regression taks
+* It is able to model decision and possible consequences in the form of a tree like strcuture
+* The branch represents a `decision rule` and the internal node represents a `feature`. The leaf node or the terminal node of the branch is the `outcome`
+
+Building a Decision Tree:
+==========
+DEINR (pronounced as "Diner") : Data; Entropy; InformationGain ; NodeSeletion; RecursiveSplitting
+* Data Input: Start with the entire dataset.
+* Entropy Calculation: Calculate the entropy of the target variable and predictor attributes to measure impurity.
+* Information Gain: Determine the information gain for each attribute to identify which feature best splits the data.
+* Node Selection: Choose the attribute with the highest information gain as the root node.
+* Recursive Splitting: Repeat this process recursively for each branch until all branches are finalized or a stopping criterion is met (e.g., maximum depth or minimum samples per leaf)
+
+Advantages:
+==========
+* Easy to interpret and visualize.
+* Requires little data preprocessing (no need for normalization).
+* Can handle both numerical and categorical data.
+
+Disadvantages:
+============
+* Prone to overfitting, especially with deep trees.
+* Sensitive to small variations in data.
+
