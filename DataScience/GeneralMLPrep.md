@@ -18,3 +18,16 @@ CNNs are widely used in various fields such as:
 * Image Recognition: Identifying objects in images (e.g., facial recognition).
 * Medical Image Analysis: Analyzing X-rays or MRIs for diagnostic purposes.
 * Autonomous Vehicles: Object detection and scene understanding.
+
+RNN
+==========
+* RNN are a class of nerual networks that are excellent at processing sequential data
+* They maintain an internal state at time step `t` for input `x(t)`, and combines it with hidden state from the previous step `h(t-1)` to produce a new hidden state `h(t)`
+* h (t) = f [ W(h) * h(t−1)  + W(x) * x(t) + b], W(h) and W(x) are weight matrics and b is the bias term, f is the activation function
+
+Applications:
+==========
+RNNs are commonly used in:
+* Natural Language Processing: Tasks such as language modeling, text generation, and sentiment analysis.
+* Speech Recognition: Processing audio signals to convert speech into text.
+* Time Series Prediction: Forecasting stock prices or weather conditions based on historical data.
