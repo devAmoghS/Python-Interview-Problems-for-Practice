@@ -90,7 +90,7 @@ How Bagging Works:
 ===============
 * Multiple Samples: Generate multiple bootstrap samples from the original dataset.
 * Model Training: Train a separate model (e.g., decision tree) on each bootstrap sample.
-* Final Prediction: Aggregate predictions from all models (e.g., majority voting for classification)
+* Final Prediction: Aggregate predictions from all models (e.g., majority voting for classification, averaging for regression)
 
 Advantages:
 ==========
