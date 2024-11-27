@@ -58,3 +58,45 @@ Disadvantages:
 * Prone to overfitting, especially with deep trees.
 * Sensitive to small variations in data.
 
+Random Forest
+==========
+* Random Forest is an ensermble technique, that combines multiple decision trees
+* It mitigates overfitting by averaging the results of many tree, which indivudually may have high variance
+
+Building a Random Forest:
+==========
+BTA (pronounced as "beta"): BootStrapSampling; TreeConstruction; Aggregation
+* Bootstrap Sampling: Randomly select subsets of the training data with replacement to create multiple datasets.
+* Tree Construction: For each subset, build a decision tree using a random selection of features at each split.
+* Aggregation: During prediction, aggregate the results from all trees (e.g., majority vote for classification or average for regression)
+
+Advantages:
+==========
+* Reduces overfitting compared to individual decision trees.
+* Handles large datasets with higher dimensionality well.
+* Provides feature importance scores.
+
+Disadvantages:
+==========
+* More complex and less interpretable than single decision trees.
+* Requires more computational resources.
+
+Bagging or (B)ootstrap (Agg)regating
+====================================
+* This is an ensemble technique aimed at improving the accuracy and stability of ML models
+* It is done by combining multiple models trained on different subsets of the training data
+
+How Bagging Works:
+===============
+* Multiple Samples: Generate multiple bootstrap samples from the original dataset.
+* Model Training: Train a separate model (e.g., decision tree) on each bootstrap sample.
+* Final Prediction: Aggregate predictions from all models (e.g., majority voting for classification)
+
+Advantages:
+==========
+* Reduces variance and helps prevent overfitting.
+* Improves model robustness against noise in data.
+
+Disadvantages:
+=================
+* May not significantly improve performance if base learners are not diverse. 
