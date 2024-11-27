@@ -45,7 +45,7 @@ DEINR (pronounced as "Diner") : Data; Entropy; InformationGain ; NodeSeletion; R
 * Entropy Calculation: Calculate the entropy of the target variable and predictor attributes to measure impurity.
 * Information Gain: Determine the information gain for each attribute to identify which feature best splits the data.
 * Node Selection: Choose the attribute with the highest information gain as the root node.
-* Recursive Splitting: Repeat this process recursively for each branch until all branches are finalized or a stopping criterion is met (e.g., maximum depth or minimum samples per leaf)
+* Recursive Splitting: Repeat this process recursively for each branch until all branches are finalized or a *stopping criterion is met (e.g., maximum depth or minimum samples per leaf)*
 
 Advantages:
 ==========
